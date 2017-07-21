@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">로그인 앱</string>
+    <string name="id">아이디</string>
+    <string name="pw">암호</string>
+</resources>

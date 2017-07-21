@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    android:weightSum="1">
+
+
+
+    <LinearLayout
+        android:id = "@+id/my_item"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tv_user_id"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tv_titie"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="TextView"
+            android:textColor="@color/colorAccent" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.08"
+        android:text="TextView"
+        android:textColor="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary" />
+
+</LinearLayout>
